@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@import "animation.css";
+@import "adminPage.css";
+@import "imvStyles.css";
+@import "mediaQ.css";
+@import "imvSearch.css";
+@import url('https://fonts.googleapis.com/css?family=Arimo|Lato|Merriweather+Sans|Roboto|Montserrat|Open+Sans|Rubik|Sarabun|Ubuntu|Baloo+Bhai&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+#mainHeader {
+  position: relative;
+  z-index: 10 !important;
+  height: 50px;
+}
+#menuDiv {
+  position: relative;
+  height: auto;
+}
+nav#menu { /* Top Bar Menu */
+  position: fixed;
+  width: 100%;
+  background-color: #1d46bf;
+}
+  .menuItem {
+    font-weight: 200;
+    font-family: 'Sarabun', sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #1b46bf;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    transition: .3s;
+  }
+  #adminBtn {
+    display: none;
+  }
+  .menuItem:hover {
+    background-color: #3562e0;
+    cursor: pointer;
+  }
+  .rgtAl {
+    float: right !important;
+  }
+  .grnBg {
+    background-color: #1fbd1b;
+    color: #ffffff;
+    border: none;
+    animation: grnBg 1s infinite alternate-reverse;
+  }
+  @keyframes grnBg {
+    from {
+      background-color: #1fbd1b;
+    }
+    to {
+      background-color: #189f15;
+    }
+  }
+  .redBg { background-color: #e61e1e;}
+  .redBg:hover { background-color: #e94e4e;}
+  .grnBg:hover { background-color: #45d242}
+
+.contBg { /* Contact Form Black Background */
+  display: none; /* Hidden By Default */
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.4);
+}
+.contactForm { /* Contact Form */
+  display: none; /* Hidden By Default */
+  position: relative;
+  color: #fff;
+  border-radius: 2%;
+  background-image: linear-gradient(#1d4aa7, #1d4aa763);
+  z-index: 2;
+}
+.contactForm h4 {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+.adminBtn {
+  display: none !important;
+  color: #fff;
+  background-color: inherit;
+  border: none;
+  display: inline-block;
+}
+.midHead {
+
+}
+.headBanner {
+  display: block;
+  width: 100%;
+  border-bottom: 2px groove #1d4aa7;
+}
+.loginBtn {
+  background-color: #1fbd1b;
+  color: #ffffff;
+  border: none;
+}
+#loginFormDiv {
+  display: none;
+}
+#conInp {
+  color: #000;
+  opacity: .9;
+  border: none;
+  box-shadow: #0009 0px 0px 12px;
+  background-color: #80aaf3;
+  display: block;
+  transition: .3s;
+}
+  #conInp:focus {
+    background-color: #abc9ff;
+    box-shadow: #0009 0px 0px 15px;
+  }
+#sbmt { /* Submit Button */
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .3s;
+  box-shadow: 0 0 15px #0006;
+}
+.closeBtn {
+  color: #fff;
+  background-color: #cb0f0f;
+  font-family: 'Rubik', sans-serif;
+  float: right;
+  margin: 0;
+  transition: .3s;
+  z-index: 3;
+}
+  .closeBtn:hover {
+    box-shadow: #800e0ecc 0 0 10px;
+    text-shadow: 0 0 7px;
+    cursor: pointer;
+  }
+
+#mainSec {
+  border-bottom: 1px solid black;
+}
+#slideShow { /*  */
+  position: relative;
+  border: 1px black solid;
+}
+  #sld1 {
+    position: ;
+  }
+#mainCont {
+
+}
+/* Logo */
+.logo {
+  position: relative;
+  font-family: 'Sarabun', sans-serif;
+  color: #fff;
+  background-color: #0003;
+  margin: auto;
+}
+.logo h4{
+  text-shadow: 0 0 10px #fff;
+}
+.logo h3, h4   {
+  font-family: 'ubuntu', sans-serif;
+  position: relative;
+  display: initial;
+  margin: 0;
+}
+.logo h6 {
+  margin: 0;
+}
+
+.logS {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+/* Imv Search */
+.imvSearch { /* Immobile Search Form */
+  text-align: center;
+  font-family: 'Sarabun', sans-serif;
+  color: #fff;
+  font-weight: lighter;
+  position: relative;
+}
+.imvSearchInps { /* Selectors */
+  font-size: 120%;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+}
+.imvSearchInps:focus {
+  border: 1px #2499d8 solid;
+}
+.imvSrc { /* Form Elements Inputs */
+  display: inline-block;
+  margin: auto;
+}
+#imvSearch { /* Title */
+  font-weight: initial;
+  font-size: 200%;
+}
+.bairrosL { /*  Lista de bairros*/
+  position: relative;
+  display: none; /* Hidden by default */
+  top: -1px;
+  overflow-y: scroll;
+  max-height: 300px;
+  padding: 0;
+  margin: 0;
+  width: max-content;
+  left: 47.2%;
+  background-color: #fff;
+  list-style: none;
+}
+.bairrosL li {
+  margin: 0;
+  cursor: pointer;
+  color: #000;
+  max-width: inherit;
+  text-shadow: none;
+  position: relative;
+  margin: 0;
+  padding: 10px 37px;
+  transition: .3s;
+}
+.bairrosL li:hover {
+  background-color: #e61e1e45;
+}
+.listItems {
+  text-decoration: none;
+  text-transform: none;
+}
+#srcBtn { /* "Pesquisar" Button */
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1d4aa7;
+  border: none;
+  color: #e9e9e9;
+  height: 100%;
+  width: 120px;
+  transition: .3s;
+}
+#srcBtn:hover {
+  cursor: pointer;
+  text-shadow: #fff 0 0 7px;
+  box-shadow: #000 0 0 30px;
+}
+/* Imoveis Em Destaque */
+.imvDest {
+  color: #000;
+}
+
+/* Footer */
+#ftr {
+  position: relative;
+  bottom: 0;
+  background-color: #1d46bf;
+  width: 100%;
+}

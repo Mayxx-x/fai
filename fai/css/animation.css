@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.fadeIn {
+  animation: fadein .1s linear;
+}
+@keyframes fadein {
+  from { opacity: .2;}
+  to { opacity: 1;}
+}
