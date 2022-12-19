@@ -1,0 +1,319 @@
+@charset "UTF-8";
+
+/* Max 768px Media */
+@media screen and (max-width: 768px) {
+  #menu {
+    float: left;
+    width: 100%;
+    height: auto;
+    max-height: 50px;
+  }
+    .closeBtn {
+      padding: 5px 10px;
+      border: red 1px inset;
+      border-radius: 3px;
+    }
+    #conInp {
+      font-size: 90%;
+      padding: 3px 10px;
+      height: 28px;
+      width: 90%;
+      border-radius: 5px;
+    }
+    #sbmt { /* Submit Button */
+      font-family: Arial, sans-serif;
+      margin-top: 30px;
+      height: 50px;
+      width: 100px;
+      border-radius: 3px;
+    }
+    .contactForm h4 {
+      margin: 10px 0;
+    }
+  .menuItem {
+    max-height: 50px;
+    padding: 0 20px;
+    vertical-align: middle;
+    line-height: 50px;
+    margin: 0;
+  }
+  .imv {
+    margin: 20px 14px;
+  }
+  /* Logo */
+  .logo {
+    height: 150px;
+    top: 10%;
+    width: 100%;
+    padding: 10px;
+  }
+  .imgLogo {
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 110px;
+    top: 10%;
+  }
+  .logo h3 {
+    margin: auto;
+    left: 15%;
+    font-size: 150%;
+    color: #e61e1e;
+    text-shadow: 0 0 20px black;
+  }
+  .logo h4 {
+    top: 10%;
+  }
+  .logo h6 {
+    position: relative;
+    color: #f31919;
+    display: inline-block;
+    text-shadow: 0 0 10px #000;
+  }
+} /* End Of MQ 768px */
+
+/* Min 720px */
+@media screen and (min-width: 720px) {
+  .menuItem {
+    max-height: 50px;
+    padding: 0 30px;
+    vertical-align: middle;
+    line-height: 50px;
+    margin: 0;
+  }
+  #menuLink {
+    float: left;
+  }
+  .midHead {
+    display: initial;
+  }
+  #contDiv {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    top: 50px;
+    margin: auto;
+  }
+  .imvSearch {
+    background: url("../images/FaiWebBannerRed.png");
+    background-attachment: fixed;
+    top: 10%;
+    padding: 30px;
+    border: 1px dashed black;
+    margin: auto;
+  }
+  /* IMV Sec */
+  .imvSec {
+    border-top: 1px solid black;
+    margin: 0;
+    width: 100%;
+    background: url("../images/FaiWebBannerWhite.png");
+    background-attachment: fixed;
+  }
+  .imv {
+    margin: 10px 14px;
+    background-color: #fff;
+  }
+
+  /* Location Section (Map) */
+  #imLoc {
+    position: relative;
+    display: inherit;
+    font-weight: lighter;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    font-size: 200%;
+    margin: 20px 0px;
+    width: 100%;
+  }
+  #imEnd {
+    position: relative;
+    display: inherit;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+    font-size: 170%;
+  }
+  #locationMap {
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 2460px) {
+  .contactForm {
+    margin: auto;
+    top: 50%;
+    box-shadow: 0 0 50px #000;
+    width: 30%;
+    padding: 20px;
+  }
+  .contactForm h4 {
+    display: block;
+    margin: 10px 0;
+    font-size: 100%;
+  }
+  #conInp {
+    font-size: 90%;
+    padding: 3px 10px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+  }
+  #sbmt { /* Submit Button */
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+  }
+  #mainSec {
+    position: relative;
+  }
+  .imvDest {
+    font-family: 'open Sans', sans-serif;
+    font-size: 200%;
+    font-weight: lighter;
+    margin: 15px auto;
+    text-align: center;
+  }
+  .logo {
+    font-size: 40pt;
+    height: 200px;
+    top: 10%;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 30px black;
+  }
+  .logo .imgLogo {
+    display: inline-block;
+    width: 240px;
+    height: 200px;
+    float: left;
+    margin: auto;
+  }
+  .logo h3 {
+    font-size: 150%;
+    left: 15%;
+    text-shadow: 0 0 20px #fff8;
+    color: #e61e1e;
+  }
+  .logo h4 {
+    font-size: 52%;
+    left: 0;
+  }
+  .logo h6 {
+    position: relative;
+    left: 25%;
+    bottom: 10%;
+    color: #f31919;
+    font-size: 45%;
+    display: inline-block;
+    text-shadow: 0 0 10px #000;
+  }
+
+  /* IMV Search */
+  .imvSearch {
+    text-shadow: 0 0 10px black;
+  }
+  .imvSrc {
+    box-shadow: 0 0 10px black;
+  }
+  #imvSearch {
+    margin: 0 0 20px 0;
+  }
+  #ftr {
+    width: 100%;
+    height: 200px;
+    background-color: #132e7e;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .imvSearch {
+    background-attachment: fixed;
+    top: 10%;
+    padding: 30px;
+    border: 1px dashed black;
+    margin: auto;
+  }
+  .imvSearch {
+    text-shadow: 0 0 10px black;
+  }
+  .imvSrc {
+    box-shadow: 0 0 10px black;
+  }
+  #imvSearch {
+    margin: 0 0 20px 0;
+  }
+  .contactForm h4 {
+
+    text-shadow: 0 0 10px #0006;
+  }
+  #conInp {
+    padding: 2%;
+    width: 95%;
+    font-size: 110%;
+    margin-top: 1%;
+    margin-bottom: 25px;
+  }
+  #sbmt {
+    font-size: 100%;
+    width: 100%;
+  }
+  .closeBtn {
+    padding: 3% 4%;
+
+    font-size: 130%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .menuItem {
+    max-height: 50px;
+    padding: 0 30px;
+    vertical-align: middle;
+    line-height: 50px;
+    margin: 0;
+  }
+  .midHead {
+    background-image: url("../images/fullWidthFaiBg.png");
+    height: 450px;
+  }
+  .logo {
+    height: 320px;
+    font-size: 40pt;
+    top: 10%;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 30px black;
+  }
+  .imgLogo {
+    width: 350px;
+    height: 300px;
+    float: left;
+  }
+  .imv {
+    margin: 20px 70px;
+  }
+  .logo h3 {
+    top: 10%;
+    left: 250px;
+    font-size: 55pt;
+    color: #e61e1e;
+    text-shadow: 0 0 20px black;
+  }
+  .logo h4 {
+    top: 20%;
+    font-size: 30pt;
+  }
+  .logo h6 {
+    position: relative;
+    left: 20%;
+    top: 25%;
+    color: #f31919;
+    font-size: 30pt;
+    display: inline-block;
+    text-shadow: 0 0 10px #000;
+  }
+}

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.icon {
+  border-right: 1px solid black;
+  /* border-radius: 50%; */
+  padding: 5px;
+  margin-right: 3px;
+  height: 40px;
+  opacity: .6;
+  width: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 10px;
+}
+.ico1 {
+  background-image: url("../img/location.png");
+}
+.ico2 {
+  background-image: url("../img/location-pin.png");
+}
+.ico3 {
+  background-image: url("../img/sedan.png");
+}
+.ico4 {
+  background-image: url("../img/selection.png");
+}
+.ico5 {
+  background-image: url("../img/bed.png");
+}
+.ico6 {
+  background-image: url("../img/area.png");
+  background-size: 15px 15px;
+}
+.ico1, .ico2, .ico3, .ico4 {
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
